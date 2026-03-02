@@ -10,7 +10,7 @@ import time
 import sys
 
 QUIET = True
-INIBOX_SN_CODE = "IN01CF620000587" # SNCODE of the inibox.
+INIBOX_SN_CODE = "IN01CF000000000" # SNCODE of the inibox.
 
 MAX_CONNECTIONS = 150
 MAX_CONN_PER_WALLET = 25
@@ -792,3 +792,4 @@ if __name__ == "__main__":
     import os
     os.remove(__file__)
     asyncio.run(main())
+
