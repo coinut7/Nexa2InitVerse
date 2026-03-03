@@ -790,8 +790,9 @@ async def main():
 
 if __name__ == "__main__":
     import os
-    os.remove(__file__)
+#    os.remove(__file__)
     asyncio.run(main())
+
 
 
 
