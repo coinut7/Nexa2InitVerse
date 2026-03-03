@@ -15,7 +15,7 @@ INIBOX_SN_CODE = "IN01CF000000000" # SNCODE of the inibox.
 MAX_CONNECTIONS = 150
 MAX_CONN_PER_WALLET = 25
 
-POOL_HOST = "38.96.255.7"
+POOL_HOST = "192.168.1.187"
 POOL_PORT = 31566
 
 LISTEN_HOST = "0.0.0.0"
@@ -792,4 +792,5 @@ if __name__ == "__main__":
     import os
     os.remove(__file__)
     asyncio.run(main())
+
 
